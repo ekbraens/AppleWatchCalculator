@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0620"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D5670BFD1A2D4F9C00D3B6F5"
+               BuildableName = "MyCalculator Watch App.app"
+               BlueprintName = "MyCalculator Watch App"
+               ReferencedContainer = "container:MyCalculator.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D5670BC21A2D4F8900D3B6F5"
+               BuildableName = "MyCalculator.app"
+               BlueprintName = "MyCalculator"
+               ReferencedContainer = "container:MyCalculator.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D5670BEF1A2D4F9C00D3B6F5"
+               BuildableName = "MyCalculator WatchKit Extension.appex"
+               BlueprintName = "MyCalculator WatchKit Extension"
+               ReferencedContainer = "container:MyCalculator.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      buildConfiguration = "Debug">
+      <Testables>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D5670BFD1A2D4F9C00D3B6F5"
+            BuildableName = "MyCalculator Watch App.app"
+            BlueprintName = "MyCalculator Watch App"
+            ReferencedContainer = "container:MyCalculator.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </TestAction>
+   <LaunchAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      allowLocationSimulation = "YES">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/MyCalculator">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D5670BFD1A2D4F9C00D3B6F5"
+            BuildableName = "MyCalculator Watch App.app"
+            BlueprintName = "MyCalculator Watch App"
+            ReferencedContainer = "container:MyCalculator.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D5670BFD1A2D4F9C00D3B6F5"
+            BuildableName = "MyCalculator Watch App.app"
+            BlueprintName = "MyCalculator Watch App"
+            ReferencedContainer = "container:MyCalculator.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Release"
+      debugDocumentVersioning = "YES">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/MyCalculator">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D5670BFD1A2D4F9C00D3B6F5"
+            BuildableName = "MyCalculator Watch App.app"
+            BlueprintName = "MyCalculator Watch App"
+            ReferencedContainer = "container:MyCalculator.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D5670BFD1A2D4F9C00D3B6F5"
+            BuildableName = "MyCalculator Watch App.app"
+            BlueprintName = "MyCalculator Watch App"
+            ReferencedContainer = "container:MyCalculator.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>
