@@ -11,7 +11,6 @@
 // 3)if current and previous are full, then preform operation for continuous input
 // 4)take in account "order of operations"
 
-
 #import "InterfaceController.h"
 
 @interface InterfaceController()
