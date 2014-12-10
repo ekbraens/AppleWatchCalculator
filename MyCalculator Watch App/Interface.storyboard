@@ -10,36 +10,17 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController">
                     <items>
-                        <group width="1" height="21" alignment="center" accessibilityLabel="group 1" hasDetent="YES" id="v4E-xP-cCp" userLabel="Group 1">
+                        <group width="1" height="22" alignment="center" accessibilityLabel="group 1" hasDetent="YES" id="v4E-xP-cCp" userLabel="Group 1">
                             <items>
-                                <button width="44" height="1" alignment="left" title="/" id="EXk-MA-9c3">
+                                <button width="44" height="1" alignment="left" title="Clr" id="EXk-MA-9c3">
                                     <connections>
-                                        <action selector="divide" destination="AgC-eL-Hgc" id="zSk-Wz-htQ"/>
+                                        <action selector="clear" destination="AgC-eL-Hgc" id="V1i-cG-5aU"/>
                                     </connections>
                                 </button>
                                 <label width="88" alignment="right" text="0" textAlignment="right" id="CXc-R7-jWj"/>
                             </items>
                         </group>
-                        <group width="1" height="21" alignment="center" hasDetent="YES" id="jls-Ac-Nak" userLabel="Group 2">
-                            <items>
-                                <button width="44" height="1" alignment="left" title="x" id="3ci-1F-XYq">
-                                    <connections>
-                                        <action selector="multiply" destination="AgC-eL-Hgc" id="bMf-8k-s93"/>
-                                    </connections>
-                                </button>
-                                <button width="44" height="1" alignment="center" title="+" id="0hn-P9-KkE">
-                                    <connections>
-                                        <action selector="add" destination="AgC-eL-Hgc" id="hmn-r2-EUW"/>
-                                    </connections>
-                                </button>
-                                <button width="44" height="1" alignment="right" title="-" id="4s0-R6-uwo">
-                                    <connections>
-                                        <action selector="subtract" destination="AgC-eL-Hgc" id="O2r-GZ-sPu"/>
-                                    </connections>
-                                </button>
-                            </items>
-                        </group>
-                        <group width="1" height="21" alignment="center" verticalAlignment="center" hasDetent="YES" id="IrO-DL-q2Z" userLabel="Group 3">
+                        <group width="1" height="28" alignment="center" verticalAlignment="center" hasDetent="YES" id="IrO-DL-q2Z" userLabel="Group 3">
                             <items>
                                 <button width="44" height="1" alignment="left" title="7" id="iQt-Ur-MOe">
                                     <connections>
@@ -58,7 +39,7 @@
                                 </button>
                             </items>
                         </group>
-                        <group width="1" height="21" alignment="center" verticalAlignment="center" hasDetent="YES" id="VB9-qk-2fD" userLabel="Group 4">
+                        <group width="1" height="28" alignment="center" verticalAlignment="center" hasDetent="YES" id="VB9-qk-2fD" userLabel="Group 4">
                             <items>
                                 <button width="44" height="1" alignment="left" title="4" id="TGB-bQ-lkj">
                                     <connections>
@@ -77,7 +58,7 @@
                                 </button>
                             </items>
                         </group>
-                        <group width="1" height="21" alignment="center" verticalAlignment="bottom" hasDetent="YES" id="5zY-qw-tbA" userLabel="Group 5">
+                        <group width="1" height="28" alignment="center" verticalAlignment="bottom" hasDetent="YES" id="5zY-qw-tbA" userLabel="Group 5">
                             <items>
                                 <button width="44" height="1" alignment="left" title="1" id="SSU-fX-KxU">
                                     <connections>
@@ -96,7 +77,7 @@
                                 </button>
                             </items>
                         </group>
-                        <group width="1" height="21" alignment="center" verticalAlignment="bottom" hasDetent="YES" id="XlJ-iy-MNC" userLabel="Group 6">
+                        <group width="1" height="28" alignment="center" verticalAlignment="bottom" hasDetent="YES" id="XlJ-iy-MNC" userLabel="Group 6">
                             <items>
                                 <button width="44" height="1" alignment="left" title="0" id="Vbp-AL-257">
                                     <connections>
@@ -116,11 +97,26 @@
                             </items>
                         </group>
                     </items>
-                    <menu key="menu" id="eTn-yh-UkY">
+                    <menu key="menu" id="Ldm-NA-JuH">
                         <items>
-                            <menuItem title="Clear" icon="trash" id="z6K-EL-ske">
+                            <menuItem title="Add" icon="add" id="2jS-1f-wwM">
                                 <connections>
-                                    <action selector="clear" destination="AgC-eL-Hgc" id="x9Q-Qn-TEh"/>
+                                    <action selector="add" destination="AgC-eL-Hgc" id="flI-UL-7sH"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Subtract" icon="trash" id="gi7-n1-x1Y">
+                                <connections>
+                                    <action selector="subtract" destination="AgC-eL-Hgc" id="Xq1-aC-PIh"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Multiply" icon="info" id="FNb-1p-Nrf">
+                                <connections>
+                                    <action selector="multiply" destination="AgC-eL-Hgc" id="K8E-ia-1ET"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Divide" icon="share" id="DVP-xb-gg3">
+                                <connections>
+                                    <action selector="divide" destination="AgC-eL-Hgc" id="wbN-es-L0c"/>
                                 </connections>
                             </menuItem>
                         </items>

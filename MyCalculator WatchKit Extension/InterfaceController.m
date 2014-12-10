@@ -100,6 +100,9 @@
 }
 
 
+// use the menu to use operations, not sure if this is intuitive or not
+// but it does save space on the watch face
+// worth?
 #pragma mark - Operations
 - (IBAction)subtract {
     self.previousInput = [[NSString alloc] initWithString:_currentInput];
